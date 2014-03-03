@@ -20,7 +20,7 @@ MAINTAINER Andrea Turli <andrea.turli@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y openssh-server
-RUN apt-get install -y openjdk-7-jdk
+RUN apt-get install -y default-jdk
 
 RUN mkdir /var/run/sshd
 RUN /usr/sbin/sshd
